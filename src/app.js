@@ -44,7 +44,6 @@ app.get('/weather', (req, res) => {
     if(!req.query.address){
         return res.send({ error: 'Please submit an address to search.'})
     }
-    debugger
     geocode(req.query.address, (error, {latitude, longitude, location}) => {
         if (error) {
             return console.log(error)
