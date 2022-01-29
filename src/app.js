@@ -2,8 +2,8 @@ const path = require('path')
 const express = require('express')
 const hbs = require('hbs') //needed for partials
 const { Http2ServerRequest } = require('http2')
-const geocode = require('./utils/geocode')
-const forecast = require('./utils/forecast')
+const geocode = require('./Utils/geocode')
+const forecast = require('./Utils/forecast')
 
 console.log(__dirname)
 //console.log(__filename)
