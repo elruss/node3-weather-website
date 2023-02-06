@@ -13,6 +13,6 @@ jobs:
         with:
           audit_level: moderate
           github_token: ${{ secrets.ISSUES_SECRET }}
-          issue_assignees: oke-py
+          issue_assignees: elruss
           issue_labels: vulnerability,test
           dedupe_issues: true
